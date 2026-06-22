@@ -1,0 +1,8 @@
+# Runtime dependencies for the LIVE double-diagonal bot (live.runner_double).
+# Minimal set — intentionally excludes the backtest/dashboard stack
+# (pyarrow, polars, scipy, streamlit, plotly are NOT needed to trade).
+# numpy is pulled in automatically by pandas.
+delta-rest-client>=1.0.14
+python-dotenv>=1.0
+requests>=2.31
+pandas>=2.2

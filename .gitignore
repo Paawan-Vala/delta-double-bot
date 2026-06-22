@@ -1,0 +1,27 @@
+# --- Secrets (NEVER commit) ---
+.ENV
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# --- Python ---
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Data / results (large, regenerable) ---
+data/processed/
+data/results/
+delta_exchgange_options_data/
+
+# --- Live trading runtime state / logs ---
+# Ignore everything in live/state EXCEPT the position file, which the GitHub
+# Actions deploy commits back each run so state persists between cycles.
+live/state/*
+!live/state/double_position.json
+*.log

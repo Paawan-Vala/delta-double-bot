@@ -1,0 +1,41 @@
+{
+  "contracts": 1,
+  "open_date": "2026-06-22",
+  "long_call": {
+    "symbol": "C-BTC-65000-310726",
+    "product_id": 183945,
+    "strike": 65000.0,
+    "expiry": "2026-07-31",
+    "side": 1,
+    "entry_price": 3442.93445619,
+    "entry_date": "2026-06-22"
+  },
+  "short_call": {
+    "symbol": "C-BTC-64400-230626",
+    "product_id": 186624,
+    "strike": 64400.0,
+    "expiry": "2026-06-23",
+    "side": -1,
+    "entry_price": 562.58922584,
+    "entry_date": "2026-06-22"
+  },
+  "long_put": {
+    "symbol": "P-BTC-69000-310726",
+    "product_id": 183797,
+    "strike": 69000.0,
+    "expiry": "2026-07-31",
+    "side": 1,
+    "entry_price": 5887.30206436,
+    "entry_date": "2026-06-22"
+  },
+  "short_put": {
+    "symbol": "P-BTC-65000-230626",
+    "product_id": 186713,
+    "strike": 65000.0,
+    "expiry": "2026-06-23",
+    "side": -1,
+    "entry_price": 596.72991587,
+    "entry_date": "2026-06-22"
+  },
+  "rolls": 0
+}
