@@ -11,13 +11,13 @@
     "entry_date": "2026-06-22"
   },
   "short_call": {
-    "symbol": "C-BTC-64400-230626",
-    "product_id": 186624,
-    "strike": 64400.0,
-    "expiry": "2026-06-23",
+    "symbol": "C-BTC-62200-240626",
+    "product_id": 187075,
+    "strike": 62200.0,
+    "expiry": "2026-06-24",
     "side": -1,
-    "entry_price": 562.58922584,
-    "entry_date": "2026-06-22"
+    "entry_price": 540.66880023,
+    "entry_date": "2026-06-23"
   },
   "long_put": {
     "symbol": "P-BTC-69000-310726",
@@ -29,13 +29,13 @@
     "entry_date": "2026-06-22"
   },
   "short_put": {
-    "symbol": "P-BTC-65000-230626",
-    "product_id": 186713,
-    "strike": 65000.0,
-    "expiry": "2026-06-23",
+    "symbol": "P-BTC-62000-240626",
+    "product_id": 186803,
+    "strike": 62000.0,
+    "expiry": "2026-06-24",
     "side": -1,
-    "entry_price": 596.72991587,
-    "entry_date": "2026-06-22"
+    "entry_price": 536.40162349,
+    "entry_date": "2026-06-23"
   },
-  "rolls": 0
+  "rolls": 2
 }
